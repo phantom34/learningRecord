@@ -32,9 +32,9 @@ android : configChanges = "orientation"
 >singleTop 模式 ：栈顶复用模式 只要新的activity 有同一个Activity在任务栈的栈顶时 该activity不会被重新创建 只会调用 onNewIntent()
 因为没有创建新的activity 所以 onCreate() onStart() onResume() 不执行
 
->singleTask模式 ：栈内复用模式 只要要启用的activity在栈中存在 就把该activity 调到栈顶 并且调用该activity的
+>singleTask模式 ：栈内复用模式 只要要启用的activity在栈中存在 就把该activity 调到栈顶(该栈是前一个activity所在的栈) 并且调用该activity的
 onNewIntent()
 
->
+>singleinstance 模式 ：单实例模式。这种模式的activity只能单独地位于一个任务栈中。由于站内复用特性，后续的请求均不会创建新的activity实例
 
 >>
