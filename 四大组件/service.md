@@ -71,5 +71,9 @@ class MyService extends Service{
   
   ```
  在此中可以 使用 IBinder的 service 调用 MyService的 方法
+ 
+ 3, Aidl绑定远程服务
+ 
+ 
   
   
