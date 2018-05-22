@@ -4,6 +4,18 @@
 工具类设置Log打印  在线上线下做开关判断
 同时可以手动设置
 
+在此间 更安全的方式 是不使用 logutil  直接 输出 
+```
+if (BuildConfig.DEBUG) {
+    Log.d("TAG", message);       
+}
+
+```
+
+然后 通过 proguard 优化 规则 
+ 
+  可以 通过使用 Live Template 提高效率
+
 ```java
 
 public class LogUtil {
