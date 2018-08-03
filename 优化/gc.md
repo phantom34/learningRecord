@@ -26,7 +26,7 @@ ActivityManager.getMemoryClass() 可以用来查询当前应用的 Heap Size
 ####处于Permanent
  当对象在Old区域存活时间达到一定时间就会移动到Permanent Generation
 
- 
+ 。
 ###内存泄漏 OOM
 
 1. 资源对象未关闭 
