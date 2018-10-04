@@ -196,8 +196,8 @@ aidl 接口定义语言   本质是生成 binder文件的 ontransact  给 客户
 
 
 26 http tcp/ic 协议
-
-27 dns 解析
+ http 建立链接 只要一次 并且 一次后会自动断开链接
+ tcp/ip 建立链接要三次握手 断开链接要四次挥手
 
 28 http 三次握手 4次挥手
     主要为了 安全 以及 两边当结束时 两边度可以确认 关闭了连接
@@ -211,9 +211,11 @@ aidl 接口定义语言   本质是生成 binder文件的 ontransact  给 客户
 
 31 线程安全相关
 
-32 concurrentHashMap
 
 33 hashmap 实现
+
+  实际相当于一个数组  key 值地址 通过 hash计算出来
+
 
 34 快排
   以一基数 通过交换 使得 在基数前的数小于 后的数 大于
