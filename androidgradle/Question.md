@@ -114,9 +114,9 @@ aidl 接口定义语言   本质是生成 binder文件的 ontransact  给 客户
 
 
 12 gilde Picasso
- 两者方法度很多
+ gilde 的方法数是picasso的好几倍
 
- 但是 gilde 在加载图片是先 根据imageview大小决定下载图片大小
+ 但是 gilde 在加载图片是先 根据imageview大小决定缓存图片大小
 
  13 parcelable 和serialable
   s 是 java自带的  p则是Android的
