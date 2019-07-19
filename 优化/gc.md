@@ -42,6 +42,3 @@ ActivityManager.getMemoryClass() 可以用来查询当前应用的 Heap Size
 IntDefault、 StringDef
 
 
-
-http://steamcommunity.com/id/phantom34
-752049635@qq.com	cjphantom123	phantom
