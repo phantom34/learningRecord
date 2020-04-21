@@ -43,6 +43,7 @@ LABEL_25:
       sub_7FF7FF461020((__int64)v0);
       return 0i64;
     }
+    ss
     sub_7FF7FF461020(
       (__int64)"%s\n\n",
       (char *)&unk_7FF7FF465640
